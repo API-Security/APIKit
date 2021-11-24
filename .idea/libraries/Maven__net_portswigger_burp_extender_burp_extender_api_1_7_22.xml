@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: net.portswigger.burp.extender:burp-extender-api:1.7.22">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../Environment/apache-maven-3.6.3/repository/net/portswigger/burp/extender/burp-extender-api/1.7.22/burp-extender-api-1.7.22.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$PROJECT_DIR$/../../Environment/apache-maven-3.6.3/repository/net/portswigger/burp/extender/burp-extender-api/1.7.22/burp-extender-api-1.7.22-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../../Environment/apache-maven-3.6.3/repository/net/portswigger/burp/extender/burp-extender-api/1.7.22/burp-extender-api-1.7.22-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
