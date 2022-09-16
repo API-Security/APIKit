@@ -99,12 +99,5 @@ https://github.com/API-Security/APIKit
 
 **API Security知识星球永久免费，欢迎对API安全感兴趣的信息安全爱好者一起学习交流。**
 
-**BUG、需求、PR都非常欢迎社区的小伙伴们提交。同时有疑问和意见也可以提出，我们虚心采纳。**
 ![](./img/zsxq.jpg)
-
-
-有更多想法可以加微信yuligesec聊聊~
-
-
-![](./img/wx.jpg)
 
