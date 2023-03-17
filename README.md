@@ -19,9 +19,9 @@ APIKit v1.0支持的API技术的指纹有：
 - [x] OpenAPI-Swagger 
 - [x] SpringbootActuator
 - [x] SOAP-WSDL
+- [x] REST-WADL
 
 更多的API指纹正在努力更新~
-- [ ] REST-WADL
 - [ ] gRPC
 - [ ] UPnP
 - [ ] 更多主流API技术...
