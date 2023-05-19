@@ -22,9 +22,8 @@ APIKit v1.0支持的API技术的指纹有：
 - [x] REST-WADL
 
 更多的API指纹正在努力更新~
-- [ ] gRPC
-- [ ] UPnP
-- [ ] 更多主流API技术...
+
+如有新的API技术可以在issue中反馈。
 
 
 
@@ -54,12 +53,38 @@ APIKit v1.0支持的API技术的指纹有：
 
 选择开启Auto Request Sending后，可以对子API进行自动化鉴权测试，快速发现API未授权访问漏洞。
 ![](./img/req.png)
+## Clear history
+点击清除所有API文档记录。
+
 
 # 被动扫描
 默认情况下流经BurpSuite的流量都会进行API探测解析和扫描。
 # 主动扫描
-在任何一个Burpsuite可以右键打开更多选项的页面中，都可以**点击右键**，选择**Do API scan**来发起一次主动扫描。
-![](./img/activescan.jpg)
+
+## Do Auto API scan
+
+**Do Auto API scan**可以指定任意一个请求进行API指纹探测。
+
+在任何一个Burpsuite可以右键打开更多选项的页面中，都可以**点击右键**，选择**Do  Auto API scan**来发起一次主动扫描，进行API指纹探测。
+
+![](img/16844677709767.jpg)
+
+
+
+## Do Target API Scan
+
+
+**Do Target API scan**可以指定任意API技术、任意BasePath、任意API文档Path、和任意Header进行API请求的生成和探测。
+
+在任何一个Burpsuite可以右键打开更多选项的页面中，都可以**点击右键**，选择**Do Target API scan**来打开选项框。
+
+![](img/16844675891768.jpg)
+
+填写指定任意API技术、任意BasePath、任意API文档Path、和任意Header，再点击Scan进行API请求的生成和探测。
+
+**注意BasePath要以`/`结尾。**
+![](img/16844681048595.jpg)
+
 
 
 # API漏洞自动扫描
@@ -79,10 +104,6 @@ APIKit v1.0支持的API技术的指纹有：
 
 # TODO
 ## 更多的API指纹
-- Jolokia
-- REST-WADL
-- gRPC
-- UPnP
 - 更多主流API技术...
 ## 更多实用功能
 - Fuzz鉴权绕过漏洞
